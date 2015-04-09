@@ -15,6 +15,11 @@ export default function (gulp) {
     write(`${__dirname}/source.xml`, body)
   }
 
+  gulp.task('w', () => {
+    var src = path.join(__dirname, './src')
+    gulp.watch(`${src}/useragents.xml`, ['build', 'xml2json'])
+  })
+
   gulp.task('xml2json', () => {
     var src = path.join(__dirname, './src')
       , index = `${src}/index.js`

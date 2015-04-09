@@ -1,6 +1,10 @@
 /**
  * DON'T EDIT THIS FILE
  * It's automatically generated
+ * Run 'gulp ua' to update it
+ * Kudos to awesome @chrispederick from chrispederick.com
+ * XML Source: http://techpatterns.com/downloads/firefox/useragentswitcher.xml
+ * 
  */
 
 export default {
@@ -20,7 +24,7 @@ export default {
     'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.8 (KHTML, like Gecko) Beamrise/17.2.0.9 Chrome/17.0.939.0 Safari/535.8': {
       'browser': 'beamrise',
       'os': 'windows',
-      'version': 7,
+      'version': 17.2,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1': {
@@ -137,12 +141,6 @@ export default {
       'version': 4.5,
       'type': 'desktop'
     },
-    'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Maxthon 2.0)': {
-      'browser': 'maxthon',
-      'os': 'windows',
-      'version': 2,
-      'type': 'desktop'
-    },
     'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1': {
       'browser': 'maxthon',
       'os': 'windows',
@@ -182,7 +180,7 @@ export default {
     'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0)': {
       'browser': 'msie',
       'os': 'windows',
-      'version': 8,
+      'version': 7,
       'type': 'desktop'
     },
     'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)': {
@@ -194,7 +192,7 @@ export default {
     'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/5.0)': {
       'browser': 'msie',
       'os': 'windows',
-      'version': 9,
+      'version': 7,
       'type': 'desktop'
     },
     'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)': {
@@ -230,7 +228,7 @@ export default {
     'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0)': {
       'browser': 'msie',
       'os': 'windows',
-      'version': 10,
+      'version': 7,
       'type': 'desktop'
     },
     'Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0': {
@@ -254,7 +252,7 @@ export default {
     'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C)': {
       'browser': 'msie',
       'os': 'windows',
-      'version': 11,
+      'version': 7,
       'type': 'desktop'
     },
     'Opera/9.80 (Windows NT 6.1; U; en) Presto/2.7.62 Version/11.01': {
@@ -308,13 +306,13 @@ export default {
     'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1 Safari/533.17.8': {
       'browser': 'safari',
       'os': 'windows',
-      'version': 533.17,
+      'version': 5,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5': {
       'browser': 'safari',
       'os': 'windows',
-      'version': 533.19,
+      'version': 5,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Windows; U; Windows NT 6.2; es-US ) AppleWebKit/540.0 (KHTML like Gecko) Version/6.0 Safari/8900.00': {
@@ -472,43 +470,43 @@ export default {
     'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 531.21,
+      'version': 4,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; de-de) AppleWebKit/534.15  (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 533.19,
+      'version': 5,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 533.2,
+      'version': 5,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7; en-us) AppleWebKit/534.20.8 (KHTML, like Gecko) Version/5.1 Safari/534.20.8': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 534.2,
+      'version': 5.1,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 534.55,
+      'version': 5.1,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13+ (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 534.57,
+      'version': 5.1,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.17 (KHTML like Gecko) Version/6.0.2 Safari/536.26.17': {
       'browser': 'safari',
       'os': 'mac',
-      'version': 536.26,
+      'version': 6,
       'type': 'desktop'
     },
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.1 (KHTML like Gecko) Version/7.0.6 Safari/537.78.1': {
@@ -540,7 +538,7 @@ export default {
     'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.1': {
       'browser': 'arora',
       'os': 'linux',
-      'version': 0.11,
+      'version': 0.1,
       'type': 'desktop'
     },
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5': {
@@ -580,27 +578,21 @@ export default {
       'type': 'desktop'
     },
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.125 Safari/537.36': {
-      'browser': 'chromium',
+      'browser': 'chrome',
       'os': 'linux',
       'version': 36,
       'type': 'desktop'
     },
     'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2166.2 Safari/537.36': {
-      'browser': 'chromium',
+      'browser': 'chrome',
       'os': 'linux',
       'version': 39,
       'type': 'desktop'
     },
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36': {
-      'browser': 'chromium',
+      'browser': 'chrome',
       'os': 'linux',
       'version': 41,
-      'type': 'desktop'
-    },
-    'Mozilla/4.0 (compatible; Dillo 3.0)': {
-      'browser': 'dillo',
-      'os': 'linux',
-      'version': 3,
       'type': 'desktop'
     },
     'Mozilla/5.0 (X11; U; Linux i686; en-us) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) lt-GtkLauncher': {
@@ -696,7 +688,7 @@ export default {
     'Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0': {
       'browser': 'konqueror',
       'os': 'linux',
-      'version': 4.3,
+      'version': 4.2,
       'type': 'desktop'
     },
     'Mozilla/5.0 (compatible; Konqueror/4.3; Linux) KHTML/4.3.1 (like Gecko) Fedora/4.3.1-3.fc11': {
