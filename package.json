@@ -1,0 +1,38 @@
+{
+  "name": "useragent-list",
+  "version": "0.0.1",
+  "description": "useragents collection in XML and json formats",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opudalo/useragent-list"
+  },
+  "keywords": [
+    "es6",
+    "micro",
+    "microjs",
+    "useragent-list"
+  ],
+  "author": {
+    "name": "Eugene Chechurin",
+    "email": "e.chechurin@gmail.com",
+    "url": "https://github.com/opudalo"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/opudalo/useragent-list",
+  "scripts": {
+    "watch": "gulp watch",
+    "prepublish": "gulp prepublish",
+    "test": "gulp test",
+    "test-node": "gulp test-node",
+    "test-browser": "gulp test-browser"
+  },
+  "dependencies": {
+    "es6-lib": "^0.0.9",
+    "babel-polyfill": "git://github.com/grammarly/babel-polyfill.git#1.0.1",
+    "chai": "^2.2.0"
+  }
+}
