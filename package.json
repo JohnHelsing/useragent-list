@@ -1,6 +1,6 @@
 {
   "name": "useragent-list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "useragents collection in XML and json formats",
   "directories": {
     "lib": "./lib"
